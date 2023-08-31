@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ddd-infrastructure</artifactId>
+    <packaging>pom</packaging>
 
+    <description>Infrastructure模块包含了Persistence、Messaging、External等模块。</description>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
